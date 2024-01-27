@@ -1,47 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
 
-  Your Result
-  76
-  of 100
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="grid-container">
+        <div class="result">
+          <h1>Your Result</h1>
+          <div class="circle">
+            <p class="avg-score">76 <span>of 100 </span></p>
+          </div>
+          <p class="great-text">Great</p>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+          <p>
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
 
-  Reaction
-  80 / 100
+        <div class="summary">
+          <h2>Summary</h2>
+          <div class="summary-flex">
+            <div class="accent1 score-cards">
+              <p>
+                <img
+                  src="./assets/images/icon-reaction.svg"
+                  alt="reaction icon"
+                />
+                Reaction
+              </p>
 
-  Memory
-  92 / 100
+              <p class="score-obtained">
+                92 <span class="max-score">/ 100 </span>
+              </p>
+            </div>
 
-  Verbal
-  61 / 100
+            <div class="accent2 score-cards">
+              <p>
+                <img
+                  src="./assets/images/icon-memory.svg"
+                  alt="mememory icon"
+                />Memory
+              </p>
+              <p class="score-obtained">
+                92 <span class="max-score">/ 100 </span>
+              </p>
+            </div>
 
-  Visual
-  72 / 100
+            <div class="accent3 score-cards">
+              <p>
+                <img src="./assets/images/icon-verbal.svg" alt="verbal" />
+                Verbal
+              </p>
+              <p class="score-obtained">
+                92 <span class="max-score">/ 100 </span>
+              </p>
+            </div>
 
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+            <div class="accent4 score-cards">
+              <p>
+                <img
+                  src="./assets/images/icon-visual.svg"
+                  alt="visual icon"
+                />Visual
+              </p>
+              <p class="score-obtained">
+                92 <span class="max-score">/ 100 </span>
+              </p>
+            </div>
+          </div>
+
+          <button class="btn-continue">Continue</button>
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
 </html>
