@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/kumarmash/results-summary-component-main)
-- Live Site URL: [Add live site URL here](https://kumarmash.github.io/results-summary-component-main/)
+- Solution URL: [Solution URL](https://github.com/kumarmash/results-summary-component-main)
+- Live Site URL: [Live Site URL](https://kumarmash.github.io/results-summary-component-main/)
 
 ## My process
 
